@@ -3,7 +3,7 @@
 - `requirements.txt` provides TF and Keras versioning information and Python version needed. Runs on CUDA 12.0 and CUDNN 8.9.7
 - Windows WSL2 for Linux does not have NUMA support.
 - Run Tensorflow environment in a conda virtual environment.
-- Runs on Ubuntu 24.04 
+- Runs on Windows WSL2 - Ubuntu 24.04 
 ---
 ## Getting Started
 Clone repository
@@ -30,6 +30,7 @@ python3 testkeras.py
 ```
 ---
 ## Technical Documentation
+- [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs.
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs.
 ---
 If you run into any issues feel free to open a issue or PR. DMs are open if this could serve as a Tensorflow and Keras toolchain for Dell machines.
