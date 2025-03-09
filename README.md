@@ -11,15 +11,15 @@ git clone https://github.com/rcghpge/tensorflow.git
 cd tensorflow
 ```
 
-You should be able to replicate the environment via
-```bash
-pip install -r requirements.txt
-```
-
 Initialize a Conda environment (install Conda if needed - see technical documentation)
 ```bash
 conda create -n tfenv python=x.x
 conda activate tfenv
+```
+
+You should be able to replicate the environment via
+```bash
+pip install -r requirements.txt
 ```
 ---
 ## Technical Documentation
