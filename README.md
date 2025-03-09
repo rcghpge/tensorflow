@@ -10,7 +10,7 @@ You should be able to replicate the environment via
 pip install -r requirements.txt
 ```
 
-Initialize a Conda environment (install Conda if needed)
+Initialize a Conda environment (install Conda if needed - see technical documentation)
 ```bash
 conda create -n tfenv python=x.x
 conda activate tfenv
