@@ -30,8 +30,8 @@ python3 testkeras.py
 ```
 ---
 ## Technical Documentation
-- [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs.
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs.
+- [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs
 ---
 If you run into any issues feel free to open a issue or PR. DMs are open if this could serve as a Tensorflow and Keras toolchain for Dell machines.
 
