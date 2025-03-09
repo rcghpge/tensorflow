@@ -5,6 +5,12 @@
 - Run Tensorflow environment in a conda virtual environment.
 ---
 ## Getting Started
+Clone repository
+```bash
+git clone https://github.com/rcghpge/tensorflow.git
+cd tensorflow
+```
+
 You should be able to replicate the environment via
 ```bash
 pip install -r requirements.txt
