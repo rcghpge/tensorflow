@@ -21,6 +21,12 @@ You should be able to replicate the environment via
 ```bash
 pip install -r requirements.txt
 ```
+
+## Test Tensorflow and Keras environment
+I have provided a `test/` directory with sample models to test the development environment. Run test models 
+```bash
+python3 testkeras.py
+```
 ---
 ## Technical Documentation
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs.
