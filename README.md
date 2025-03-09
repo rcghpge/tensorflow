@@ -16,3 +16,6 @@ conda create -n tfenv python=x.x
 conda activate tfenv
 ```
 ---
+## Technical Documentation
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs.
+---
