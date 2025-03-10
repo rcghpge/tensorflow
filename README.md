@@ -21,6 +21,14 @@ conda activate tfenv
 You should be able to replicate the environment via
 ```bash
 conda install --file requirements.txt
+pip install -r requirements.txt
+
+```
+
+Verify Stable Tensorflow and Keras environment
+```bash
+python -c "import tensorflow as tf; print('TensorFlow Keras Version:', tf.keras.__version__)"
+python -c "import tensorflow as tf; print('Num GPUs Available:', len(tf.config.list_physical_devices('GPU')))"
 ```
 
 ## Test Tensorflow and Keras environment
