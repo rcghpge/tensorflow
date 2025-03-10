@@ -4,7 +4,7 @@
 - Windows WSL2 for Linux does not have NUMA support.
 - Run Tensorflow environment in a conda virtual environment.
 ---
-## Getting Started
+## Getting Started (Linux)
 Clone repository
 ```bash
 git clone https://github.com/rcghpge/tensorflow.git
