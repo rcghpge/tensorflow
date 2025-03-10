@@ -20,7 +20,7 @@ conda activate tfenv
 
 You should be able to replicate the environment via
 ```bash
-conda install --file requirements.txt
+conda install --file conda-requirements.txt
 pip install -r requirements.txt
 
 ```
