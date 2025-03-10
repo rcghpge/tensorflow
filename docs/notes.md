@@ -7,4 +7,8 @@ These versions are stable to a degree on this machine:
 - cuda-version 11.8
 - cudatoolkit 11.8.0
 
+GitHub security vulnerablities:
+- This stable version of Tensorflow and Keras for this specific machine triggers security vulnerabilities with GitHub's Dependabot
+and its cybersecurity toolchain.
+- If the Dependabot's PR's are merged, it breaks the stability of this current 'stable' setup venv.
 
