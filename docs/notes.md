@@ -1,0 +1,9 @@
+# Notes
+
+**Dell Precision 5510 Workstation compatibility**
+These versions are stable to a degree on this machine:
+- cudnn 8.9.7.29
+- cuda-version 11.8
+- cudatoolkit 11.8.0
+
+
