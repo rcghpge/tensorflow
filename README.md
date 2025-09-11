@@ -1,10 +1,12 @@
 # Tensorflow 
-- Custom stable Tensorflow and Keras environment for Dell Precision 5510 Workstations.
+- Installation for Tensorflow and Keras environment for Dell Precision Workstations.
+- Testing/tested on Dell Precision 5510 Workstation.
 - `requirements.txt` and `conda-requirements.txt` provides TF and Keras versioning information and Python version needed. Runs on Python 3.8, Tensorflow 2.6.0, Keras 2.6.0, CUDA 11.8, CUDNN 8.9.7, and Windows WSL2 - Ubuntu 24.04 
 - Windows WSL2 for Linux does not have NUMA support.
 - Run Tensorflow environment in a conda virtual environment.
 ---
-## Getting Started (Linux)
+## Getting Started 
+### Ubuntu/UbuntuWSL
 Clone repository
 ```bash
 git clone https://github.com/rcghpge/tensorflow.git
@@ -26,7 +28,7 @@ pip install -r requirements.txt
 
 ```
 
-## Arch Linux
+### Arch Linux/ArchWSL
 wip - Arch Linux installation is a little different. Currently not detecting GPU.
 ```bash
 sudo pacman -S python-conda
