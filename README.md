@@ -63,6 +63,6 @@ python3 testkeras.py
 - [Arch Linux](https://wiki.archlinux.org/title/Conda) - Installation docs
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs
 ---
-If there is a stable solution for older Dell machines feel free to contact me or send PR's to optimize this stack for Dell machine owners.
+If there is a stable solution for older Dell workstatiosn feel free to contact me or send PR's to optimize this stack for Dell Precision Workstation line of machines.
 
 ---
