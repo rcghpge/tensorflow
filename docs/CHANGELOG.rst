@@ -1,5 +1,3 @@
-. _changelog:
-
 TensorFlow/Keras For Dell Precision Workstations
 ************************************************
 
