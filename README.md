@@ -60,9 +60,11 @@ python3 testkeras.py
 ```
 ---
 ## Technical Documentation
-- [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs
-- [Arch Linux](https://wiki.archlinux.org/title/Conda) - Installation docs
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs
+- [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Ubuntu Instalation docs
+- [Arch Linux](https://wiki.archlinux.org/title/Installation_guide) - Arch Linux Installation docs
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Main Conda Installation docs
+- [Conda on Arch Linux](https://wiki.archlinux.org/title/Conda) - Conda Installation docs for Arch Linux
+  
 ---
 If there is a stable solution for older Dell workstatiosn feel free to contact me or send PR's to optimize this stack for legacy Dell Precision Workstation line of machines.
 
