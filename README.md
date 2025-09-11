@@ -40,7 +40,7 @@ conda install --file conda-requirements.txt
 pip install -r requirements.txt
 ```
 
-You can install TensorFlow from pacaman on Arch Linux and test Python versioning from latest.
+You can install TensorFlow from pacman on Arch Linux and test Python versioning from latest.
 Currently only detects CPU - no GPU detected.
 
 Verify Tensorflow and Keras environment
