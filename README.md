@@ -58,7 +58,7 @@ python3 testkeras.py
 ---
 ## Technical Documentation
 - [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs
-- [Arch Linux](https://wiki.archlinux.org/title/Conda)
+- [Arch Linux](https://wiki.archlinux.org/title/Conda) - Installation docs
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs
 ---
 If there is a stable solution for older Dell machines feel free to contact me or send PR's to optimize this stack for Dell machine owners.
