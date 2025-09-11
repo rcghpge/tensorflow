@@ -69,6 +69,6 @@ python3 testkeras.py
 - [Keras](https://keras.io/getting_started/) - Keras Installation docs
   
 ---
-If there is a stable solution for older Dell workstatiosn feel free to contact me or send PR's to optimize this stack for legacy Dell Precision Workstation line of machines.
+If there is a stable solution for older Dell workstations feel free to contact me or send PR's to optimize this stack for legacy Dell Precision Workstation line of machines.
 
 ---
