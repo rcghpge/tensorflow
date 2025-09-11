@@ -63,6 +63,7 @@ python3 testkeras.py
 - [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) - Ubuntu Installation docs
 - [Arch Linux](https://wiki.archlinux.org/title/Installation_guide) - Arch Linux Installation docs
 - [UbuntuWSL](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - UbuntuWSL Instalation docs
+- [LnOS Arch](https://github.com/uta-lug-nuts/LnOS/wiki) - LnOS Arch Installation Wiki
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Main Conda Installation docs
 - [Conda on Arch Linux](https://wiki.archlinux.org/title/Conda) - Conda Installation docs for Arch Linux
 - [TensorFlow](https://www.tensorflow.org/install) - TensorFlow Installation docs
