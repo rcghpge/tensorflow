@@ -1,4 +1,4 @@
-TensorFlow/Keras For Dell Precision Workstations
+TensorFlow/Keras For Legacy Dell Precision Workstations
 ************************************************
 
 v0.1.0
