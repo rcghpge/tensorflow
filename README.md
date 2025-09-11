@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 ## Arch Linux
-wip - Arch Linux installation is a litter different. Currently not detecting GPU.
+wip - Arch Linux installation is a little different. Currently not detecting GPU.
 ```bash
 sudo pacman -S python-conda
 conda init
