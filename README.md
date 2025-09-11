@@ -13,6 +13,8 @@ cd tensorflow
 
 Initialize a Conda environment (install Conda if needed - see technical documentation)
 ```bash
+conda init
+conda config --set auto_activate_base false # disables venv auto-activate 
 conda create -n tfenv python=3.8
 conda activate tfenv
 ```
@@ -24,7 +26,24 @@ pip install -r requirements.txt
 
 ```
 
-Verify stable Tensorflow and Keras environment
+## Arch Linux
+wip - Arch Linux installation is a litter different. Currently not detecting GPU.
+```bash
+sudo pacman -S python-conda
+conda init
+conda config --set auto_activate_base false
+conda create -n tfenv python=3.8
+conda activate tfenv
+
+# Install requirements
+conda install --file conda-requirements.txt
+pip install -r requirements.txt
+```
+
+You can install TensorFlow from pacaman on Arch Linux and test Python versioning from latest.
+Currently only detects CPU - no GPU detected.
+
+Verify Tensorflow and Keras environment
 ```bash
 python -c "import tensorflow as tf; print('TensorFlow Keras Version:', tf.keras.__version__)"
 python -c "import tensorflow as tf; print('Num CPUs Available:', len(tf.config.list_physical_devices('CPU')))"
@@ -39,8 +58,9 @@ python3 testkeras.py
 ---
 ## Technical Documentation
 - [Ubuntu](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) - Instalation docs
+- [Arch Linux](https://wiki.archlinux.org/title/Conda)
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Installation docs
 ---
-If you run into any issues feel free to open a issue or PR. DMs are open if this could serve as a Tensorflow and Keras toolchain for Dell machines.
+If there is a stable solution for older Dell machines feel free to contact me or send PR's to optimize this stack for Dell machine owners.
 
 ---
