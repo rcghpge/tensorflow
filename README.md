@@ -1,4 +1,4 @@
-# Tensorflow 
+# tensorflow 
 - Installation for Tensorflow and Keras environment for legacy Dell Precision Workstations.
 - Testing/tested on Dell Precision 5510 Workstation.
 - `requirements.txt` and `conda-requirements.txt` provides TF and Keras versioning information and Python version needed. Runs on Python 3.8, Tensorflow 2.6.0, Keras 2.6.0, CUDA 11.8, CUDNN 8.9.7, and Windows WSL2 - Ubuntu 24.04
@@ -25,28 +25,28 @@ conda activate tfenv
 
 You should be able to replicate the environment via
 ```bash
-# List available conda environments
+# List available Conda environments
 conda env list
 
-# Install environment
+# Install Conda environment
 conda env update -f environment.yml --prune
 ```
 
 ### Arch Linux/ArchWSL
 wip - Arch Linux installation is a little different. Currently not detecting GPU.
 ```bash
+# Install Conda
 sudo pacman -S python-conda
 conda init
 conda config --set auto_activate_base false
 conda create -n tfenv python=3.8
 conda activate tfenv
 
-# Install requirements
-```bash
+# Check Conda local environment
 # List available conda environments
 conda env list
 
-# Install environment
+# Install Conda environment
 conda env update -f environment.yml --prune
 ```
 
@@ -63,7 +63,7 @@ python -c "import tensorflow as tf; print('Num GPUs Available:', len(tf.config.l
 ## Test Tensorflow and Keras environment
 I have provided a `test/` directory with sample models to test the development environment. Run test models 
 ```bash
-python3 testkeras.py
+python3 test/testkeras.py
 ```
 ---
 ## Technical Documentation
