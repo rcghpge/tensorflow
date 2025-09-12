@@ -8,6 +8,7 @@
 ---
 ## Getting Started 
 ### Ubuntu/UbuntuWSL
+To install Anaconda on Ubuntu/UbuntuWSL see Anaconda installation docs at Technical Documentation section. Refer back to steps below
 Clone repository
 ```bash
 git clone https://github.com/rcghpge/tensorflow.git
@@ -24,9 +25,11 @@ conda activate tfenv
 
 You should be able to replicate the environment via
 ```bash
-conda install --file conda-requirements.txt
-pip install -r requirements.txt
+# List available conda environments
+conda env list
 
+# Install environment
+conda env update -f environment.yml --prune
 ```
 
 ### Arch Linux/ArchWSL
@@ -39,14 +42,19 @@ conda create -n tfenv python=3.8
 conda activate tfenv
 
 # Install requirements
-conda install --file conda-requirements.txt
-pip install -r requirements.txt
+```
+```bash
+# List available conda environments
+conda env list
+
+# Install environment
+conda env update -f environment.yml --prune
 ```
 
 You can install TensorFlow from pacman on Arch Linux and test Python versioning from latest.
 Currently only detects CPU - no GPU detected.
 
-Verify Tensorflow and Keras environment
+]Verify Tensorflow and Keras environment
 ```bash
 python -c "import tensorflow as tf; print('TensorFlow Keras Version:', tf.keras.__version__)"
 python -c "import tensorflow as tf; print('Num CPUs Available:', len(tf.config.list_physical_devices('CPU')))"
@@ -66,9 +74,10 @@ python3 testkeras.py
 - [LnOS Arch](https://github.com/uta-lug-nuts/LnOS/wiki) - LnOS Arch (Arch-based) Installation Wiki
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - Main Conda Installation docs
 - [Conda on Arch Linux](https://wiki.archlinux.org/title/Conda) - Conda Installation docs for Arch Linux
+- [Anaconda](https://www.anaconda.com/docs/getting-started/anaconda/install#macos-linux-installation:manual-shell-initialization) - Anaconda Installation docs for Ubuntu/UbuntuWSL
 - [TensorFlow](https://www.tensorflow.org/install) - TensorFlow Installation docs
 - [Keras](https://keras.io/getting_started/) - Keras Installation docs
-  
+
 ---
 If there is a stable solution for older Dell workstations feel free to contact me or send PR's to optimize this stack for legacy Dell Precision Workstation line of machines.
 
