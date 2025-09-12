@@ -42,7 +42,6 @@ conda create -n tfenv python=3.8
 conda activate tfenv
 
 # Install requirements
-```
 ```bash
 # List available conda environments
 conda env list
