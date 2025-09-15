@@ -6,7 +6,7 @@
 - Installation for Tensorflow and Keras environment for legacy Dell Precision Workstations and HP ZBook G-series Workstations
 - Testing/tested on Dell Precision 5510 Workstation, HP ZBook G6 Workstation
 - OS environments testing/tested on: Windows 10 Pro, Windows 11 Pro, LnOS Arch (Arch-based)
-- `requirements.txt` and `conda-requirements.txt` provides TF and Keras versioning information and Python version needed. Runs on Python 3.8, Tensorflow 2.6.0, Keras 2.6.0, CUDA 11.8, CUDNN 8.9.7, and Windows WSL2 - Ubuntu 24.04
+- wip: `rnvironment.yml` provides TF and Keras versioning information and Python version needed. Runs on Python 3.8, Tensorflow 2.6.0, Keras 2.6.0, CUDA 11.8, CUDNN 8.9.7, and Windows WSL2 - Ubuntu 24.04
 - Arch Linux wip
 - Windows WSL2 for Linux does not have NUMA support.
 - Run Tensorflow environment in a conda virtual environment.
