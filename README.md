@@ -37,7 +37,7 @@ conda env list
 conda env update -f environment.yml --prune
 ```
 
-### Arch Linux/ArchWSL
+### Arch Linux/ArchWSL/LnOS Arch (Arch-based)
 wip - Arch Linux installation is a little different. Currently not detecting GPU.
 ```bash
 # Install Conda
