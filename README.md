@@ -85,4 +85,6 @@ python3 test/testkeras.py
 ---
 If there is a stable solution for older Dell workstations feel free to contact me or send PR's to optimize this stack for legacy Dell Precision Workstation line of machines.
 
+For HP Zbook G-series workstations there doesn't seem to be a backward compatibility issue so far but I have only just secured the model that I use.
+
 ---
