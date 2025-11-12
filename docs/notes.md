@@ -1,12 +1,19 @@
 # Notes
 ---
-## Dell Precision 5510 Workstation compatibility:
+## Dell Precision 5510 Workstation:
 These versions are stable to a degree on this machine
 - Tensorflow - Keras version 2.6.0
 - cudnn 8.9.7.29
 - cuda-version 11.8
 - cudatoolkit 11.8.0
 
+
+---
+## HP ZBook G6 Workstation:
+- no NUMA support for VM virtualized kernels.
+
+
+---
 GitHub security vulnerablities:
 - This 'stable' version of Tensorflow and Keras for this specific machine triggers security vulnerabilities with GitHub's Dependabot
 and its cybersecurity toolchain.

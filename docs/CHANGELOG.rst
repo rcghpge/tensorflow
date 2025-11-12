@@ -8,3 +8,4 @@ v0.1.0
 - Conda YAML venvs seems more secure to build upon.
 - Preliminary tests on W11P - UbuntuWSL are successful with yml venvs.
 - Further testing needed on ArchWSL, LnOS Arch, and other native Linux environments.
+- Installed NUMA support to run TF/Keras tests. wip.
